@@ -1,7 +1,7 @@
 <template>
-<GameQuestion />
+  <GameQuestion />
+  <GameQuestion />
 </template>
-<script>
-import GameQuestion from '@/components/GameQuestion.vue';
-
+<script setup>
+import GameQuestion from "../components/GameQuestion.vue";
 </script>
