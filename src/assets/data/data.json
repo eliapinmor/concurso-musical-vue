@@ -3,7 +3,30 @@
         "id": 1,
         "title": "Sample Data 1",
         "artist": "Artist A",
-        "src": "/songs/sample1.mp3 //las canciones estan en la carpeta public dentro de songs"
+        "src": "/songs/Lana Del Rey - Born To Die.mp3",
+        "pregunta": "What is the title of this song?",
+        "opciones": [
+            "Sample Data 1",
+            "Sample Data 2",
+            "Sample Data 3",
+            "Sample Data 4"
+        ],
+        "respuesta": "Sample Data 1"
+        
+    },
+    {
+        "id": 1,
+        "title": "Sample Data 2",
+        "artist": "Artist B",
+        "src": "/songs/Lana Del Rey - Born To Die.mp3",
+        "pregunta": "What is the title of this song?",
+        "opciones": [
+            "Sample Data 1",
+            "Sample Data 2",
+            "Sample Data 3",
+            "Sample Data 4"
+        ],
+        "respuesta": "Sample Data 1"
         
     }
 ]

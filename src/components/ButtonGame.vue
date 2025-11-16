@@ -19,4 +19,17 @@ defineProps({
     }
 })
 </script>
-<style scoped></style>
+<style scoped>
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: var(--bgColor);
+    color: var(--textColor);
+    transition: background-color 0.3s ease;
+}
+</style>
