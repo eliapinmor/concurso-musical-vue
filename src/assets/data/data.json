@@ -1,8 +1,6 @@
 [
     {
         "id": 1,
-        "title": "Sample Data 1",
-        "artist": "Artist A",
         "src": "/songs/Lana Del Rey - Born To Die.mp3",
         "pregunta": "What is the title of this song?",
         "opciones": [
@@ -15,9 +13,7 @@
         
     },
     {
-        "id": 1,
-        "title": "Sample Data 2",
-        "artist": "Artist B",
+        "id": 2,
         "src": "/songs/Lana Del Rey - Born To Die.mp3",
         "pregunta": "What is the title of this song?",
         "opciones": [
