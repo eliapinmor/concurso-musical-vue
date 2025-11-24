@@ -1,28 +1,182 @@
 [
-    {
-        "id": 1,
-        "src": "/songs/Lana Del Rey - Born To Die.mp3",
-        "pregunta": "What is the title of this song?",
-        "opciones": [
-            "Sample Data 1",
-            "Sample Data 2",
-            "Sample Data 3",
-            "Sample Data 4"
-        ],
-        "respuesta": "Sample Data 1"
-        
-    },
-    {
-        "id": 2,
-        "src": "/songs/Lana Del Rey - Born To Die.mp3",
-        "pregunta": "What is the title of this song?",
-        "opciones": [
-            "Sample Data 1",
-            "Sample Data 2",
-            "Sample Data 3",
-            "Sample Data 4"
-        ],
-        "respuesta": "Sample Data 1"
-        
-    }
+  {
+    "id": 1,
+    "src": "/songs/Amaia - Magia En Benidorm (128kbit_AAC).m4a",
+    "artista": "Amaia",
+    "titulo": "Magia En Benidorm",
+    "pregunta": "What is the title of this song?",
+    "opciones": ["Magia En Benidorm", "El Relámpago", "La Canción", "Bienvenidos al Show"],
+    "respuesta": "Magia En Benidorm"
+  },
+  {
+    "id": 2,
+    "src": "/songs/Britney Spears - ...Baby One More Time (Official Video) (128kbit_AAC).m4a",
+    "artista": "Britney Spears",
+    "titulo": "…Baby One More Time",
+    "pregunta": "What is the title of this song?",
+    "opciones": ["…Baby One More Time", "Toxic", "Oops!... I Did It Again", "Lucky"],
+    "respuesta": "…Baby One More Time"
+  },
+  {
+    "id": 3,
+    "src": "/songs/Depeche Mode - Enjoy the Silence (128kbit_AAC).m4a",
+    "artista": "Depeche Mode",
+    "titulo": "Enjoy the Silence",
+    "pregunta": "Who sings this song?",
+    "opciones": ["Depeche Mode", "New Order", "The Cure", "Pet Shop Boys"],
+    "respuesta": "Depeche Mode"
+  },
+  {
+    "id": 4,
+    "src": "/songs/Gara Durán - Cuídalas (Vídeo Oficial) (128kbit_AAC).m4a",
+    "artista": "Gara Durán",
+    "titulo": "Cuídalas",
+    "pregunta": "What is the title of this song?",
+    "opciones": ["Cuídalas", "La Corriente", "Amapolas", "El Susurro"],
+    "respuesta": "Cuídalas"
+  },
+  {
+    "id": 5,
+    "src": "/songs/Grimes - Genesis (128kbit_AAC).m4a",
+    "artista": "Grimes",
+    "titulo": "Genesis",
+    "pregunta": "What is the title of this song?",
+    "opciones": ["Genesis", "Oblivion", "Realiti", "Violence"],
+    "respuesta": "Genesis"
+  },
+  {
+    "id": 6,
+    "src": "/songs/Joji -  Glimpse of Us (128kbit_AAC).m4a",
+    "artista": "Joji",
+    "titulo": "Glimpse of Us",
+    "pregunta": "What is the title of this song?",
+    "opciones": ["Glimpse of Us", "Die For You", "Slow Dancing in the Dark", "Sanctuary"],
+    "respuesta": "Glimpse of Us"
+  },
+  {
+    "id": 7,
+    "src": "/songs/Judeline - chica de cristal (Visualizer) (128kbit_AAC).m4a",
+    "artista": "Judeline",
+    "titulo": "chica de cristal",
+    "pregunta": "Who sings this song?",
+    "opciones": ["Judeline", "Amaia", "Natalia Lacunza", "Rigoberta Bandini"],
+    "respuesta": "Judeline"
+  },
+  {
+    "id": 8,
+    "src": "/songs/Judeline, Amaia - com você (128kbit_AAC).m4a",
+    "artista": "Judeline",
+    "titulo": "com você",
+    "pregunta": "What is the title of this song?",
+    "opciones": ["com você", "chica de cristal", "La Emperatriz", "Coraçao Partido"],
+    "respuesta": "com você"
+  },
+  {
+    "id": 9,
+    "src": "/songs/Lana Del Rey - Born To Die.mp3",
+    "artista": "Lana Del Rey",
+    "titulo": "Born To Die",
+    "pregunta": "What is the title of this song?",
+    "opciones": ["Born To Die", "Video Games", "Blue Jeans", "West Coast"],
+    "respuesta": "Born To Die"
+  },
+  {
+    "id": 10,
+    "src": "/songs/Lana Del Rey - Ride (128kbit_AAC).m4a",
+    "artista": "Lana Del Rey",
+    "titulo": "Ride",
+    "pregunta": "Who sings this song?",
+    "opciones": ["Lana Del Rey", "Florence + The Machine", "Billie Eilish", "Adele"],
+    "respuesta": "Lana Del Rey"
+  },
+  {
+    "id": 11,
+    "src": "/songs/Lykke Li - bad woman (Audio) (128kbit_AAC).m4a",
+    "artista": "Lykke Li",
+    "titulo": "bad woman",
+    "pregunta": "What is the title of this song?",
+    "opciones": ["bad woman", "I Follow Rivers", "Little Bit", "Dance Dance Dance"],
+    "respuesta": "bad woman"
+  },
+  {
+    "id": 12,
+    "src": "/songs/No Surprises (128kbit_AAC).m4a",
+    "artista": "Radiohead",
+    "titulo": "No Surprises",
+    "pregunta": "What is the title of this song?",
+    "opciones": ["No Surprises", "Karma Police", "Creep", "There There"],
+    "respuesta": "No Surprises"
+  },
+  {
+    "id": 13,
+    "src": "/songs/ROSALÍA - Omega (Official Video) ft. Ralphie Choo (128kbit_AAC).m4a",
+    "artista": "ROSALÍA",
+    "titulo": "Omega",
+    "pregunta": "Who sings this song?",
+    "opciones": ["ROSALÍA", "Bad Gyal", "Nathy Peluso", "Becky G"],
+    "respuesta": "ROSALÍA"
+  },
+  {
+    "id": 14,
+    "src": "/songs/Sixpence None The Richer - Kiss Me (Official Music Video) (128kbit_AAC).m4a",
+    "artista": "Sixpence None The Richer",
+    "titulo": "Kiss Me",
+    "pregunta": "What is the title of this song?",
+    "opciones": ["Kiss Me", "There She Goes", "Breathe Your Name", "Don't Dream It's Over"],
+    "respuesta": "Kiss Me"
+  },
+  {
+    "id": 15,
+    "src": "/songs/The Cranberries - Dreams (Dir; Peter Scammell) (Official Music Video) (128kbit_AAC).m4a",
+    "artista": "The Cranberries",
+    "titulo": "Dreams",
+    "pregunta": "What is the title of this song?",
+    "opciones": ["Dreams", "Linger", "Zombie", "Ode to My Family"],
+    "respuesta": "Dreams"
+  },
+  {
+    "id": 16,
+    "src": "/songs/The Cranberries - Linger (Official Music Video) (128kbit_AAC).m4a",
+    "artista": "The Cranberries",
+    "titulo": "Linger",
+    "pregunta": "Who sings this song?",
+    "opciones": ["The Cranberries", "R.E.M.", "The Smiths", "U2"],
+    "respuesta": "The Cranberries"
+  },
+  {
+    "id": 17,
+    "src": "/songs/The Cure - Boys Don't Cry (128kbit_AAC).m4a",
+    "artista": "The Cure",
+    "titulo": "Boys Don't Cry",
+    "pregunta": "What is the title of this song?",
+    "opciones": ["Boys Don't Cry", "Just Like Heaven", "Pictures of You", "Friday I'm In Love"],
+    "respuesta": "Boys Don't Cry"
+  },
+  {
+    "id": 18,
+    "src": "/songs/The Smiths - Bigmouth Strikes Again (Official Audio) (128kbit_AAC).m4a",
+    "artista": "The Smiths",
+    "titulo": "Bigmouth Strikes Again",
+    "pregunta": "What is the title of this song?",
+    "opciones": ["Bigmouth Strikes Again", "This Charming Man", "Heaven Knows I'm Miserable Now", "Ask"],
+    "respuesta": "Bigmouth Strikes Again"
+  },
+  {
+    "id": 19,
+    "src": "/songs/The Smiths - This Charming Man (Official Music Video) (128kbit_AAC).m4a",
+    "artista": "The Smiths",
+    "titulo": "This Charming Man",
+    "pregunta": "Who sings this song?",
+    "opciones": ["The Smiths", "The Cure", "Joy Division", "Echo & The Bunnymen"],
+    "respuesta": "The Smiths"
+  },
+  {
+    "id": 20,
+    "src": "/songs/Tove Lo - Habits (Stay High) - Hippie Sabotage Remix (128kbit_AAC).m4a",
+    "artista": "Tove Lo",
+    "titulo": "Habits (Stay High) - Hippie Sabotage Remix",
+    "pregunta": "What is the title of this song?",
+    "opciones": ["Habits (Stay High) - Hippie Sabotage Remix", "Cool Girl", "Talking Body", "Disco Tits"],
+    "respuesta": "Habits (Stay High) - Hippie Sabotage Remix"
+  }
 ]

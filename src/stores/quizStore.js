@@ -1,33 +1,47 @@
-import { defineStore } from 'pinia'
-import questionsTotal from '@/assets/data/data.json'
+import { defineStore } from "pinia";
+import questionsTotal from "@/assets/data/data.json";
+import { playSong5s, stopSong } from "@/assets/songPlayer.js";
 
-export const useQuizStore = defineStore('quiz', {
+export const useQuizStore = defineStore("quiz", {
   state: () => ({
     questions: [],
     currentQuestionIndex: 0,
-    score: 0
+    score: 0,
+    isFinished: false,
   }),
   actions: {
-    startGame: () => {
-        questions = [...questionsTotal].sort(() => Math.random() - 0.5).slice(0, 10)
-        currentQuestionIndex = 0
-        score = 0
-        console.log('Game started with questions:', questions)
+    startGame() {
+      this.questions = [...questionsTotal]
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 10);
+      this.currentQuestionIndex = 0;
+      this.score = 0;
+      this.isFinished = false;
+      playSong5s(this.questions[this.currentQuestionIndex].src);
     },
-    answerQuestion: (answer) => {
-        if (answer) {
-            score = score + 10
-        } else {
-            score = score - 5
-        }
+    answerQuestion(answer) {
+      if (answer) {
+        this.score += 10;
+      } else {
+        this.score -= 5;
+      }
+      this.nextQuestion();
     },
-    nextQuestion: () => {
-        currentQuestionIndex++
-    },
-    endGame: () => {
-        console.log('Game ended')
-    }
+    nextQuestion() {
+      stopSong();
+      if (this.currentQuestionIndex < this.questions.length - 1) {
+        this.currentQuestionIndex++;
+      } else {
+        this.isFinished = true;
+        this.endGame();
+      }
+      playSong5s(this.questions[this.currentQuestionIndex].src);
 
-  }
-
-})
+    },
+    endGame() {
+      stopSong();
+      this.isFinished = true;
+      console.log("Game ended");
+    },
+  },
+});

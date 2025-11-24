@@ -21,13 +21,16 @@
 <script setup>
 import { ref } from "vue";
 import { useUserStore } from "@/stores/userStore";
+import { useQuizStore } from "@/stores/quizStore";
 
 const userStore = useUserStore();
 const tempName = ref("");
+const quizStore = useQuizStore();
 
 function saveName() {
   if (tempName.value.trim().length === 0) return;
   userStore.setName(tempName.value);
+  quizStore.startGame();
 }
 </script>
 <style scoped>
