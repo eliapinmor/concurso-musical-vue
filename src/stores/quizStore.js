@@ -8,6 +8,8 @@ export const useQuizStore = defineStore("quiz", {
     currentQuestionIndex: 0,
     score: 0,
     isFinished: false,
+    selectedAnswer: null,
+    correctAnswers: null,
   }),
   actions: {
     startGame() {
