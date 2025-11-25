@@ -17,8 +17,9 @@ export function playSong5s(src) {
       const totalDuration = howler.duration();
       const maxStart = Math.max(totalDuration - 10, 0);
       const startTime = Math.random() * maxStart;
-      howler.play();
       howler.seek(startTime);
+      howler.play();
+
       console.log(maxStart);
       console.log(`Playing from ${startTime} seconds`);
     },

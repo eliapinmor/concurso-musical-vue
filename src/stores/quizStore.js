@@ -10,6 +10,7 @@ export const useQuizStore = defineStore("quiz", {
     isFinished: false,
     selectedAnswer: null,
     correctAnswers: null,
+    blocked: false,
   }),
   actions: {
     startGame() {
@@ -27,10 +28,13 @@ export const useQuizStore = defineStore("quiz", {
       } else {
         this.score -= 5;
       }
-      this.nextQuestion();
+      setTimeout(() => {
+        this.nextQuestion();
+      }, 2000);
     },
     nextQuestion() {
       stopSong();
+      this.blocked = false;
       if (this.currentQuestionIndex < this.questions.length - 1) {
         this.currentQuestionIndex++;
       } else {
@@ -38,7 +42,6 @@ export const useQuizStore = defineStore("quiz", {
         this.endGame();
       }
       playSong5s(this.questions[this.currentQuestionIndex].src);
-
     },
     endGame() {
       stopSong();
