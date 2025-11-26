@@ -47,7 +47,7 @@ import BigNumber from "../components/BigNumber.vue";
 import StartGameCard from "@/components/StartGameCard.vue";
 </script>
 <style scoped>
-.steps {
+/* .steps {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
@@ -58,5 +58,47 @@ import StartGameCard from "@/components/StartGameCard.vue";
   display: flex;
   justify-content: space-around;
   margin-top: 40px;
+} */
+
+ section {
+  padding: 60px 20px;
 }
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: #4b0082;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.big-numbers {
+  background-color: #6a0dad;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 0;
+  border-radius: 16px;
+}
+
+section:last-of-type {
+  text-align: center;
+  padding: 60px 20px;
+}
+
 </style>
