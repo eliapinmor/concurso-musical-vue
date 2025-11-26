@@ -1,5 +1,5 @@
 <template>
-<RouterLink to="/game" class="btn">
+<RouterLink :to="route" class="btn">
   {{ content }}
 </RouterLink>
 </template>
@@ -16,6 +16,10 @@ defineProps({
     content: {
         type: String,
         default: 'Comenzar a2 Jugar'
+    },
+    route: {
+        type: String,
+        default: '/game'
     }
 })
 </script>

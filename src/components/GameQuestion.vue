@@ -40,7 +40,7 @@ function checkAnswer(option, event) {
   // const isCorrect = option === currentQuestion.value.respuesta;
   // quizStore.selectedAnswer = option;
   // quizStore.answerQuestion(isCorrect);
-    const button = event.target;
+  const button = event.target;
   if (quizStore.blocked) return;
 
   if (option === currentQuestion.value.respuesta) {
@@ -53,5 +53,4 @@ function checkAnswer(option, event) {
     quizStore.answerQuestion(false);
   }
 }
-
 </script>

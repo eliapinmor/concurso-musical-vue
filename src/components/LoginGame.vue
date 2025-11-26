@@ -3,9 +3,9 @@
     <h2>¡Adivina la canción!</h2>
     <div class="login">
       <div style="width: 500px;">
-        <p>1</p>
-        <p>2</p>
-        <p>3</p>
+        <p>1. Introduce tu usuario</p>
+        <p>2. Escucha la canción durante 5s</p>
+        <p>3. Adivina el máximo de canciones posibles</p>
       </div>
       <div>
         <h2>Introduce tu nombre</h2>

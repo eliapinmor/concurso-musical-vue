@@ -37,11 +37,12 @@ export const useQuizStore = defineStore("quiz", {
       this.blocked = false;
       if (this.currentQuestionIndex < this.questions.length - 1) {
         this.currentQuestionIndex++;
+        playSong5s(this.questions[this.currentQuestionIndex].src);
       } else {
         this.isFinished = true;
         this.endGame();
       }
-      playSong5s(this.questions[this.currentQuestionIndex].src);
+      
     },
     endGame() {
       stopSong();

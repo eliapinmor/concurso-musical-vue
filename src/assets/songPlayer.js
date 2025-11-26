@@ -34,5 +34,6 @@ export function playSong5s(src) {
 export function stopSong() {
   if (howler) {
     howler.stop();
+    howler.unload();
   }
 }

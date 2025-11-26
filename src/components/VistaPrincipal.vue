@@ -10,31 +10,30 @@
   </div>
   <div>
     <ButtonGame />
-    <ButtonRanking />
+    <ButtonGame content="Go to ranking" route="/ranking" />
   </div>
   <div class="imgBg">
     <img src="/icons/audio.png" alt="Imagen Principal" />
   </div>
 </template>
 <script setup>
-import ButtonGame from './ButtonGame.vue';
-import ButtonRanking from './ButtonRanking.vue';
-
+import ButtonGame from "./ButtonGame.vue";
+import ButtonRanking from "./ButtonRanking.vue";
 </script>
 <style scoped>
 .imgBg {
-    background-color: blueviolet;
-    border-radius: 50%;
-    width: 280px;
-    height: 280px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 16px auto;
+  background-color: blueviolet;
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
 }
 
 .imgBg img {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
 </style>
