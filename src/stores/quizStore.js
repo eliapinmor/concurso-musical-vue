@@ -1,6 +1,8 @@
 import { defineStore } from "pinia";
 import questionsTotal from "@/assets/data/data.json";
 import { playSong5s, stopSong } from "@/assets/songPlayer.js";
+import { saveGame } from "@/assets/ranking.js";
+import { useUserStore } from "./userStore";
 
 export const useQuizStore = defineStore("quiz", {
   state: () => ({
@@ -46,6 +48,8 @@ export const useQuizStore = defineStore("quiz", {
     },
     endGame() {
       stopSong();
+      const userStore = useUserStore();
+      saveGame(userStore.name, this.score);
       this.isFinished = true;
       console.log("Game ended");
     },

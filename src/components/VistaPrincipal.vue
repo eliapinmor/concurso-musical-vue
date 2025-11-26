@@ -18,7 +18,6 @@
 </template>
 <script setup>
 import ButtonGame from "./ButtonGame.vue";
-import ButtonRanking from "./ButtonRanking.vue";
 </script>
 <style scoped>
 .imgBg {
