@@ -15,7 +15,7 @@ defineProps({
     },
     content: {
         type: String,
-        default: 'Comenzar a2 Jugar'
+        default: 'Comenzar a Jugar'
     },
     route: {
         type: String,
