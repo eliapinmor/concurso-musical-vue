@@ -17,8 +17,25 @@ defineProps({
 })
 </script>
 <style scoped>
-.content {
+/* .content {
     text-align: center;
     margin: 20px;
+} */
+
+ .content {
+  text-align: center;
+  margin: 10px 20px;
 }
+
+.content h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.content h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 </style>

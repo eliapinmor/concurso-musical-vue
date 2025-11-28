@@ -67,14 +67,16 @@ import StartGameCard from "@/components/StartGameCard.vue";
 h2 {
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
+  font-weight: 700;
   color: #4b0082;
 }
 
 h4 {
   text-align: center;
   font-size: 1.1rem;
-  color: #333;
+  font-weight: 400;
+  color: #555;
   margin-bottom: 40px;
 }
 
@@ -82,7 +84,7 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 24px;
 }
 
 .big-numbers {
@@ -92,13 +94,12 @@ h4 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  padding: 40px 0;
-  border-radius: 16px;
+  padding: 40px;
+  border-radius: 20px;
 }
 
 section:last-of-type {
   text-align: center;
-  padding: 60px 20px;
 }
 
 </style>

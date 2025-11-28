@@ -43,9 +43,10 @@ import ButtonGame from "./ButtonGame.vue";
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   color: #6a0dad;
   margin-bottom: 16px;
+  font-weight: 800;
 }
 
 h4 {
@@ -53,30 +54,32 @@ h4 {
   color: #555;
   max-width: 600px;
   margin: 0 auto;
+  font-weight: 400;
 }
 
 div:nth-of-type(2) {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-bottom: 40px;
+  margin: 40px 0;
 }
 
 .imgBg {
   background-color: #6a0dad;
   border-radius: 50%;
-  width: 280px;
-  height: 280px;
+  width: 260px;
+  height: 260px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 16px auto;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  margin: auto;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
 }
 
 .imgBg img {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
 }
+
 
 </style>

@@ -19,3 +19,13 @@ const userStore = useUserStore();
 const quizStore = useQuizStore();
 
 </script>
+<style scoped>
+/* CENTRAR EL CONTENIDO DEL JUEGO */
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+</style>

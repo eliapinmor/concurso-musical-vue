@@ -21,3 +21,40 @@ import ButtonGame from "@/components/ButtonGame.vue";
 import { useQuizStore } from "@/stores/quizStore";
 const quizStore = useQuizStore();
 </script>
+<style scoped>
+p {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+p:first-of-type {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #6a0dad;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #6a0dad;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+button:hover {
+  background-color: #4b0082;
+}
+
+div {
+  text-align: center;
+  margin-top: 10px;
+}
+
+</style>
