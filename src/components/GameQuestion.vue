@@ -1,12 +1,12 @@
 <template>
-  <h2>esto es una game question</h2>
-  <div>
-    <p>{{ userStore.name }}</p>
-    <p>Puntaje: {{ quizStore.score }}</p>
+  <h2>Pregunta {{ quizStore.currentQuestionIndex + 1}}</h2>
+  <div class="nameAndScore">
+    <div><p style="text-align: start;">{{ userStore.name }}</p></div>
+    <div><p style="text-align: end;">{{ quizStore.score }} puntos</p></div>
   </div>
   <div>
     <!-- <audio :src="quizStore.currentQuestion.src" controls autoplay></audio> -->
-    <p>{{ currentQuestion.pregunta }}</p>
+    <h3>{{ currentQuestion.pregunta }}</h3>
     <!-- <p>{{ currentQuestion.src }}</p> -->
     <div>
       <button
@@ -85,7 +85,7 @@ div > div {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  max-width: 400px;
+  width: 400px;
   margin: 0 auto;
 }
 
@@ -112,8 +112,10 @@ button:active {
   transform: scale(0.98);
 }
 
-/* COLORES QUE TÚ CAMBIAS CON JS:
-   - verde: correcto
-   - rojo: incorrecto 
-(no hace falta estilo extra aquí) */
+.nameAndScore {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
 </style>
