@@ -5,9 +5,7 @@
     <div><p style="text-align: end;">{{ quizStore.score }} puntos</p></div>
   </div>
   <div>
-    <!-- <audio :src="quizStore.currentQuestion.src" controls autoplay></audio> -->
     <h3>{{ currentQuestion.pregunta }}</h3>
-    <!-- <p>{{ currentQuestion.src }}</p> -->
     <div>
       <button
         v-for="op in shuffledOptions"
@@ -46,10 +44,12 @@ function checkAnswer(option, event) {
   if (option === currentQuestion.value.respuesta) {
     quizStore.blocked = true;
     button.style.backgroundColor = "green";
+    button.style.color = "white";
     quizStore.answerQuestion(true);
   } else {
     quizStore.blocked = true;
     button.style.backgroundColor = "red";
+    button.style.color = "white";
     quizStore.answerQuestion(false);
   }
 }

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "src": "/songs/Amaia - Magia En Benidorm (128kbit_AAC).m4a",
+    "src": "/songs/Magia En Benidorm.mp3",
     "artista": "Amaia",
     "titulo": "Magia En Benidorm",
     "pregunta": "What is the title of this song?",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "src": "/songs/Britney Spears - ...Baby One More Time (Official Video) (128kbit_AAC).m4a",
+    "src": "/songs/Baby One More Time.mp3",
     "artista": "Britney Spears",
     "titulo": "…Baby One More Time",
     "pregunta": "What is the title of this song?",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "src": "/songs/Depeche Mode - Enjoy the Silence (128kbit_AAC).m4a",
+    "src": "/songs/Enjoy the Silence.mp3",
     "artista": "Depeche Mode",
     "titulo": "Enjoy the Silence",
     "pregunta": "Who sings this song?",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "src": "/songs/Gara Durán - Cuídalas (Vídeo Oficial) (128kbit_AAC).m4a",
+    "src": "/songs/Cuídalas.mp3",
     "artista": "Gara Durán",
     "titulo": "Cuídalas",
     "pregunta": "What is the title of this song?",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "src": "/songs/Grimes - Genesis (128kbit_AAC).m4a",
+    "src": "/songs/Genesis.mp3",
     "artista": "Grimes",
     "titulo": "Genesis",
     "pregunta": "What is the title of this song?",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "src": "/songs/Joji -  Glimpse of Us (128kbit_AAC).m4a",
+    "src": "/songs/Glimpse of Us.mp3",
     "artista": "Joji",
     "titulo": "Glimpse of Us",
     "pregunta": "What is the title of this song?",
@@ -55,7 +55,7 @@
   },
   {
     "id": 7,
-    "src": "/songs/Judeline - chica de cristal (Visualizer) (128kbit_AAC).m4a",
+    "src": "/songs/chica de cristal.mp3",
     "artista": "Judeline",
     "titulo": "chica de cristal",
     "pregunta": "Who sings this song?",
@@ -64,7 +64,7 @@
   },
   {
     "id": 8,
-    "src": "/songs/Judeline, Amaia - com você (128kbit_AAC).m4a",
+    "src": "/songs/com voce.mp3",
     "artista": "Judeline",
     "titulo": "com você",
     "pregunta": "What is the title of this song?",
@@ -82,7 +82,7 @@
   },
   {
     "id": 10,
-    "src": "/songs/Lana Del Rey - Ride (128kbit_AAC).m4a",
+    "src": "/songs/Ride.mp3",
     "artista": "Lana Del Rey",
     "titulo": "Ride",
     "pregunta": "Who sings this song?",
@@ -91,7 +91,7 @@
   },
   {
     "id": 11,
-    "src": "/songs/Lykke Li - bad woman (Audio) (128kbit_AAC).m4a",
+    "src": "/songs/bad woman.mp3",
     "artista": "Lykke Li",
     "titulo": "bad woman",
     "pregunta": "What is the title of this song?",
@@ -100,7 +100,7 @@
   },
   {
     "id": 12,
-    "src": "/songs/No Surprises (128kbit_AAC).m4a",
+    "src": "/songs/No Surprises.mp3",
     "artista": "Radiohead",
     "titulo": "No Surprises",
     "pregunta": "What is the title of this song?",
@@ -109,16 +109,16 @@
   },
   {
     "id": 13,
-    "src": "/songs/ROSALÍA - Omega (Official Video) ft. Ralphie Choo (128kbit_AAC).m4a",
+    "src": "/songs/Omega.mp3",
     "artista": "ROSALÍA",
     "titulo": "Omega",
-    "pregunta": "Who sings this song?",
-    "opciones": ["ROSALÍA", "Bad Gyal", "Nathy Peluso", "Becky G"],
-    "respuesta": "ROSALÍA"
+    "pregunta": "What is the title of this song?",
+    "opciones": ["Omega", "Malibu", "CANDY", "Berghain"],
+    "respuesta": "Omega"
   },
   {
     "id": 14,
-    "src": "/songs/Sixpence None The Richer - Kiss Me (Official Music Video) (128kbit_AAC).m4a",
+    "src": "/songs/Kiss Me.mp3",
     "artista": "Sixpence None The Richer",
     "titulo": "Kiss Me",
     "pregunta": "What is the title of this song?",
@@ -127,7 +127,7 @@
   },
   {
     "id": 15,
-    "src": "/songs/The Cranberries - Dreams (Dir; Peter Scammell) (Official Music Video) (128kbit_AAC).m4a",
+    "src": "/songs/Dreams.mp3",
     "artista": "The Cranberries",
     "titulo": "Dreams",
     "pregunta": "What is the title of this song?",
@@ -136,7 +136,7 @@
   },
   {
     "id": 16,
-    "src": "/songs/The Cranberries - Linger (Official Music Video) (128kbit_AAC).m4a",
+    "src": "/songs/Linger.mp3",
     "artista": "The Cranberries",
     "titulo": "Linger",
     "pregunta": "Who sings this song?",
@@ -145,7 +145,7 @@
   },
   {
     "id": 17,
-    "src": "/songs/The Cure - Boys Don't Cry (128kbit_AAC).m4a",
+    "src": "/songs/Boys Dont Cry.mp3",
     "artista": "The Cure",
     "titulo": "Boys Don't Cry",
     "pregunta": "What is the title of this song?",
@@ -154,7 +154,7 @@
   },
   {
     "id": 18,
-    "src": "/songs/The Smiths - Bigmouth Strikes Again (Official Audio) (128kbit_AAC).m4a",
+    "src": "/songs/Bigmouth Strikes Again.mp3",
     "artista": "The Smiths",
     "titulo": "Bigmouth Strikes Again",
     "pregunta": "What is the title of this song?",
@@ -163,7 +163,7 @@
   },
   {
     "id": 19,
-    "src": "/songs/The Smiths - This Charming Man (Official Music Video) (128kbit_AAC).m4a",
+    "src": "/songs/This Charming Man.mp3",
     "artista": "The Smiths",
     "titulo": "This Charming Man",
     "pregunta": "Who sings this song?",
@@ -172,7 +172,7 @@
   },
   {
     "id": 20,
-    "src": "/songs/Tove Lo - Habits (Stay High) - Hippie Sabotage Remix (128kbit_AAC).m4a",
+    "src": "/songs/Habits.mp3",
     "artista": "Tove Lo",
     "titulo": "Habits (Stay High) - Hippie Sabotage Remix",
     "pregunta": "What is the title of this song?",

@@ -1,7 +1,7 @@
 <template>
     <ul>
       <li v-for="(item, index) in ranking" :key="index">
-        {{ item.jugador }} — {{ item.score }} puntos
+        {{ index +1 }}. {{ item.jugador }} — {{ item.score }} puntos
       </li>
     </ul>
 </template>

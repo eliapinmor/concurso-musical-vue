@@ -8,6 +8,7 @@ import { Howl } from "howler";
 export function playSong5s(src) {
   if (howler) {
     howler.stop();
+    howler.unload();
   }
 
   howler = new Howl({

@@ -13,8 +13,9 @@
   <div v-else>
     <p>¡Sigue practicando!</p>
   </div>
+  <div style="display: flex; flex-direction: row; align-items: center; gap: 12px; align-content: center;">
   <button @click="quizStore.startGame()">Volver a jugar</button>
-  <ButtonGame route="/ranking" content="Ver el Ranking" />
+  <ButtonGame route="/ranking" content="Ver el Ranking" bgColor="#6a0dad" /></div>
 </template>
 <script setup>
 import ButtonGame from "@/components/ButtonGame.vue";
@@ -37,24 +38,22 @@ p:first-of-type {
 }
 
 button {
-  margin-top: 20px;
-  background-color: #6a0dad;
-  color: white;
-  padding: 12px 20px;
+  border: 3px solid #6a0dad;
+  color: rgb(37, 37, 37);
+  padding: 10px 20px;
   font-size: 1rem;
   border-radius: 10px;
-  border: none;
   cursor: pointer;
   transition: 0.25s;
 }
 
 button:hover {
   background-color: #4b0082;
+  color: white;
 }
 
 div {
   text-align: center;
   margin-top: 10px;
 }
-
 </style>

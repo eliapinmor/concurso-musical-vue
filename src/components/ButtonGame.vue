@@ -1,5 +1,5 @@
 <template>
-<RouterLink :to="route" class="btn">
+<RouterLink :to="route" class="btn"  :style="{ '--bgColor': bgColor, '--textColor': textColor }">
   {{ content }}
 </RouterLink>
 </template>
