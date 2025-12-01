@@ -34,10 +34,8 @@ const shuffledOptions = computed(() => {
   return [...currentQuestion.value.opciones].sort(() => Math.random() - 0.5);
 });
 
+
 function checkAnswer(option, event) {
-  // const isCorrect = option === currentQuestion.value.respuesta;
-  // quizStore.selectedAnswer = option;
-  // quizStore.answerQuestion(isCorrect);
   const button = event.target;
   if (quizStore.blocked) return;
 
@@ -50,7 +48,15 @@ function checkAnswer(option, event) {
     quizStore.blocked = true;
     button.style.backgroundColor = "red";
     button.style.color = "white";
+    const buttons = document.querySelectorAll("button");
+      buttons.forEach((button) => {
+        if (button.textContent === currentQuestion.value.respuesta) {
+          button.style.backgroundColor = "green";
+          button.style.color = "white";
+        }
+      });
     quizStore.answerQuestion(false);
+
   }
 }
 
@@ -58,7 +64,6 @@ watch(
   () => quizStore.questionTimeFinished,
   (newVal) => {
     if (newVal) {
-      // Resaltar la respuesta correcta
       const buttons = document.querySelectorAll("button");
       buttons.forEach((button) => {
         if (button.textContent === currentQuestion.value.respuesta) {
@@ -66,7 +71,6 @@ watch(
           button.style.color = "white";
         }
       });
-      //dar dos segundos antes de pasar a la siguiente pregunta
       setTimeout(() => {
         quizStore.blocked = false;
         quizStore.questionTimeFinished = false;

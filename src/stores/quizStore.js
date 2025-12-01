@@ -56,7 +56,7 @@ export const useQuizStore = defineStore("quiz", {
           this.questionTimeFinished = true;
           console.log("Time's up!");
         }
-      }, 10000);
+      }, 12000);
     },
     endGame() {
       stopSong();

@@ -23,12 +23,14 @@ export function playSong5s(src) {
 
       console.log(maxStart);
       console.log(`Playing from ${startTime} seconds`);
+      //lamar a timer
+      setTimeout(() => {
+          howler.stop();
+        }, 10000);
     },
   });
 
-  setTimeout(() => {
-          howler.stop();
-        }, 10000);
+  
 }
 
 //function to stop a song

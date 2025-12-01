@@ -3,7 +3,7 @@
         <img class="trofeo-img" src="/public/icons/trofeo.png" alt="Trophy Icon" />
         <h3>¿Listo para el desafío?</h3>
         <h2>Demuestra que eres un experto musical y alcanza el top del ranking</h2>
-        <ButtonGame content="Empezar"/>
+        <ButtonGame bgColor="#D0B7F8FF" textColor="#6a0dad" content="Empezar"/>
     </div>
 </template>
 <script setup>

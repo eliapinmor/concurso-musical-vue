@@ -9,8 +9,8 @@
     </h4>
   </div>
   <div>
-    <ButtonGame />
-    <ButtonGame content="Go to ranking" route="/ranking" />
+    <ButtonGame bgColor="#6a0dad" />
+    <ButtonGame bgColor="#D0B7F8FF" textColor="#6a0dad" content="Go to ranking" route="/ranking" />
   </div>
   <div class="imgBg">
     <img src="/icons/audio.png" alt="Imagen Principal" />
