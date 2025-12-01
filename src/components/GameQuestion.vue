@@ -18,7 +18,7 @@
   </div>
 </template>
 <script setup>
-import { computed } from "vue";
+import { computed, watch } from "vue";
 import { useQuizStore } from "../stores/quizStore";
 import { useUserStore } from "../stores/userStore";
 
@@ -53,6 +53,28 @@ function checkAnswer(option, event) {
     quizStore.answerQuestion(false);
   }
 }
+
+watch(
+  () => quizStore.questionTimeFinished,
+  (newVal) => {
+    if (newVal) {
+      // Resaltar la respuesta correcta
+      const buttons = document.querySelectorAll("button");
+      buttons.forEach((button) => {
+        if (button.textContent === currentQuestion.value.respuesta) {
+          button.style.backgroundColor = "green";
+          button.style.color = "white";
+        }
+      });
+      //dar dos segundos antes de pasar a la siguiente pregunta
+      setTimeout(() => {
+        quizStore.blocked = false;
+        quizStore.questionTimeFinished = false;
+        quizStore.nextQuestion();
+      }, 2000);
+    }
+  }
+);
 </script>
 <style scoped>
 /* TÍTULO */
