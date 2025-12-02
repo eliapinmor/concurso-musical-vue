@@ -4,13 +4,7 @@ Aplicación web desarrollada con **Vue 3 + Pinia + Vue Router + Vite**, que simu
 
 ## 🚀 Características principales
 
-- 🎵 **Reproducción de fragmentos de canciones** para preguntas (controlado por `songPlayer.js`).
-- ❓ **Sistema de preguntas y respuestas** con manejo de estado global mediante **Pinia** (`quizStore.js`).
-- 🏆 **Ranking Top 10** con datos locales (`ranking.js` y `RankingTop10.vue`).
-- 👤 **Inicio de sesión básico** para jugadores (`LoginGame.vue` + `userStore.js`).
-- 📱 **Interfaz dinámica y modular** con componentes reutilizables.
-- 🔀 **Ruteo completo** con vistas para Juego, Landing y Ranking.
-- ⚡ Empaquetado y desarrollo rápido con **Vite**.
+Doy 10 segundos de canción para que la pueda escuchar y luego dos segundos extra (un total de 12s) para adivinar la canción. Si se responde correctamente, se muestra en verde y se suman 10 puntos. Si se responde incorrectamente se muestra en rojo la opción marcada por el usuario y en verde la correcta, se restan 5 puntos. Si se acaba el tiempo que tiene para contestar se muestra en verde la opción correcta y se mantiene la puntuación igual.
 
 ## 📁 Estructura del proyecto
 
