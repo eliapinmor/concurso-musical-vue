@@ -1,4 +1,4 @@
-# Concurso Musical - Vue 3
+# Concurso Musical
 
 Aplicación web desarrollada con **Vue 3 + Pinia + Vue Router + Vite**, que simula un concurso musical en el que el usuario puede iniciar sesión, responder preguntas musicalizadas, ver su puntaje y consultar un ranking general.
 
