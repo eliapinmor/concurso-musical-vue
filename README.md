@@ -79,20 +79,3 @@ npm install
 npm run dev
 ```
 
-## 📦 Construir para producción
-
-```sh
-npm run build
-```
-
-## 📌 Requisitos
-
-- Node 16+
-- Navegadores modernos compatibles con ES Modules
-
-## 👨‍💻 Autor
-Proyecto base adaptado para un concurso musical con Vue 3.
-
----
-
-Si deseas mejorar este README o agregar capturas, documentación de componentes o diagramas, puedo ayudarte.
